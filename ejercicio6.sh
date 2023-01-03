@@ -18,6 +18,8 @@ function vedificarArchivo() {
     fi
 }
 
+
+
 # menu function
 
 function agregarRegistro() {
@@ -68,7 +70,7 @@ function menu() {
         3) listarArchivo ;;
         4) ordenarArchivo ;;
         5) borrarArchivo ;;
-        6) exit ;;
+        6) exit 146 ;;
         *) echo "Opción incorrecta" ; menu ;;
     esac
 }
@@ -80,3 +82,4 @@ function main() {
     menu
 }
 main
+
